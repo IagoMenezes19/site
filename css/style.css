@@ -1,17 +1,23 @@
 body{
-    background-color: rgb(9, 181, 55);
+    background-color: #055923;
   }
   h1{
     color: black;
     text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
   }
   h2{
     text-align: center;
   }
 
+  p{
+    padding: 1%;
+  }
+
 header{
   width: 100%;
-  background-color: brown;
+  background-color: #D9CB0B;
 }
 
 .logo{
@@ -32,12 +38,13 @@ nav{
 }
 
 .container{
-  background-color: yellow;
+  background-color: #D9CB0B;
   width: 80%;
   margin: auto;
 }
 
 footer{
-  background-color: red;
+  text-align: center;
+  background-color: #BF0449;
   width: 100%;
 }
