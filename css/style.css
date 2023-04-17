@@ -2,9 +2,9 @@ body{
   background-color: #F29A2E;
 }
   
-h1, h2{
+h1{
   font-size: 1.5em;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
   text-align: center;
 }
 
@@ -26,19 +26,31 @@ nav{
 }
 
 .banner{
-  width: 100%;
+  width: 50%;
 }
 
 .container{
-  padding-bottom: 10%;
+  font-size: 1.2em;
+  padding-bottom: 5%;
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
-  margin: auto;
+}
+
+.tamagotchi{
+  width: 38.9%;
+}
+
+.vpet{
+  width: 40%;
+}
+
+.origem{
+  padding-bottom: 5%;
 }
 
 footer{
-  padding: 5%;
+  padding: 1%;
   text-align: center;
   background-color: #F27830;
 }
