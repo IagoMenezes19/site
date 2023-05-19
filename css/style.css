@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #F29A2E;
 }
@@ -32,6 +36,11 @@ nav{
 
 .banner{
   width: 50%;
+}
+
+.fotodigivtamer{
+  width: 10%;
+  float: right;
 }
 
 .container{
