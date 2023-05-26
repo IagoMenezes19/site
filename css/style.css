@@ -44,6 +44,7 @@ nav{
 }
 
 .container{
+  width: 80%;
   font-size: 1.2em;
   padding-bottom: 5%;
   padding-left: 10%;
@@ -52,11 +53,21 @@ nav{
 }
 
 .tamagotchiimg{
-  width: 38.9%;
+  width: 78.9%;
 }
 
 .vpetimg{
-  width: 40%;
+  width: 80%;
+}
+
+.imglinha1{
+  display: flex;
+  flex-flow: row, wrap;
+  text-align: center;
+}
+
+.imgslinha1{
+  width: 50%;
 }
 
 .origem{
