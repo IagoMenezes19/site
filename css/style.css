@@ -3,7 +3,9 @@ html{
 }
 
 body{
-  background-color: white;
+  background-image: url(../img/background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 a{
