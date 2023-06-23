@@ -3,7 +3,6 @@ html{
 }
 
 body{
-  background-image: url(../img/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -74,6 +73,10 @@ nav{
 
 .origem{
   padding-bottom: 5%;
+}
+
+.filme1{
+  padding-top: 2em;
 }
 
 footer{
