@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        h1{
+            background-color: rgb(255, 255, 255);
+        }
+        
+        
+        .botao{
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        .fixo{
+            position: fixed;
+            width: 100%;
+            z-index: 1030;
+            top:0;
+        }
+
+        .cabe{
+            width: 100%;
+            position: relative;
+            top: 60px;
+        }      
+
+        .container{
+            width: 100%;
+            height: 1220px;
+            top:60px;
+            position: relative;
+            background-color: rgb(0, 0, 0);
+        }     
+        
+        .topodir{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            right: 16px;
+            top: 50px;
+
+        }
+
+        .topoesq{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            left: 16px;
+            top: 50px;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(255, 255, 255);
+            bottom: 10px;
+            left: 16px;
+
+
+        }
+        .baixodir{
+            position: absolute;
+            width: 20%;
+            background-color:rgb(255, 255, 255);
+            bottom: 10px;
+            right: 16px;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: font-weight: bold;" >atividade iw</h1>
+        <div class="cabe">
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>Teste...</h1>
+            <div class="topodir">supino</div>
+            <div class="topoesq">agachamento</div>
+            <div class="baixoesq">cavalinho</div>
+            <div class="baixodir">elevacao</div>
+            
+        </div>
+
+    </div>
+        
+   
+</body>
+</html>
