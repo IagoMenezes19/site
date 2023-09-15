@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #080510;
+
+}
+
+header{
+    align-items: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 0;
+  
+
+}
+
+.logo{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: white;
+
+}
+
+.menu ul li{
+    display: inline;
+    margin: 2%;
+}
+
+.banner{
+    width: 100%;
+
+}
+
+.container{
+    background-color: #BF6E26;
+    margin: 8%;
+    padding: 5%;
+    border-radius: 4%;
+}
+
+p{
+    text-align: justify;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 130%;
+}
+
+h1{  font-size: 200%;
+    text-align: center;
+    margin: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.gith{
+    width: 10%;
+}
+
+.contato{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 2%;
+    margin-top: 3%;
+    font-size: 150%;
+    padding-bottom: 1%;
+}
+
+@media screen and (max-width: 601px){
+
+    header{
+      
+      flex-direction: column;
+    }
+    
+}
+    
+    
+.imgr{
+
+    width: 80%;
+    border: 2px black;
+    border-radius: 10px;
+      
+}
+
+.Linha{
+
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 2%;
+  
+  }
+
+Top10{
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 50%;
+  
+  }
+  
+.Top10 > p{
+  
+    background-color: #BF6E26;
+    border-radius: 10px;
+    padding: 3%;
+  
+  }
+
+
+  .Top10{
+    width: 100%;
+  }  
